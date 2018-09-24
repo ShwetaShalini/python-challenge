@@ -38,7 +38,7 @@ with open(election_dataCSV, 'r') as csvfile:
         elif (w == li_votes):Winner = "Li"
         else:Winner = "O'Tooley"
 
-        with open("Output.txt", "w") as text_file:
+    with open("Output.txt", "w") as text_file:
             print("Election Results",file=text_file)
             print("-------------------------",file=text_file)
             print(f"Total Votes :{Total}",file=text_file)
